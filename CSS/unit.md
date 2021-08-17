@@ -1,4 +1,4 @@
-# relative unit  🆚  absolute unit
+# relative unit/absolute unit
 
 ## 상대단위란
 
@@ -12,13 +12,13 @@
 > 대표적인 절대단위 : px, pt, cm, in 등
 
 
-👉 즉, 1px는 무슨 짓을 해도 1px지만 1em은 16px이 될 수도 있고, 32px이 될 수도 있다! 
+즉, 1px는 무슨 짓을 해도 1px지만 1em은 16px이 될 수도 있고, 32px이 될 수도 있다! 
 (저는 여러분들이 어떻게 하느냐에 따라 천사가 될 수도 악마가 될 수도,,,어쩌구,,,저쩌구)
 
 
 </br>
 
-# 📏 em 
+# em 
 > em 단위가 적용된 엘리먼트의 글자 크기에 비례한 사이즈.
 
 ![그룹 52](https://user-images.githubusercontent.com/48905932/129482613-f4ac0510-53a9-43d2-8ace-04fbf33ea893.png)
@@ -62,11 +62,11 @@ div { font-size: 1.2em; // div의 font-size = 14 * 1.2 = 16.8px
 ```
 <img width="480" alt="스크린샷 2021-08-16 오전 12 26 14" src="https://user-images.githubusercontent.com/48905932/129483624-e6e69e70-c244-4665-8db6-031ad9f944a4.png">
 
-- em을 사용할 경우 이렇게 ,,,상속에 상속에 상속을 더해서~ 마트료시카 인형처럼 글씨가 점점 커지는 결과가 발생할 수 있으니 주의해야한다.😮
+- em을 사용할 경우 이렇게 ,,,상속에 상속에 상속을 더해서~ 마트료시카 인형처럼 글씨가 점점 커지는 결과가 발생할 수 있으니 주의해야한다.
 
 ---
 
-# 📐rem (root em)
+# rem (root em)
 > rem은 오직 html 태그의 font-size만 참조한다.
 
 ![그룹 51](https://user-images.githubusercontent.com/48905932/129483017-aeba5f92-1f90-4df3-a2a2-eb6a6fad725d.png)
@@ -81,7 +81,7 @@ html{
 }
 ```
 
-- 🍯 브라우저 기본 설정 기준 html의 font-size는 16px이기 때문에 62.5%를 곱해주면 10px로 맞춰놓고 시작할 수 있다!
+- 브라우저 기본 설정 기준 html의 font-size는 16px이기 때문에 62.5%를 곱해주면 10px로 맞춰놓고 시작할 수 있다!
 
 </br>
 
