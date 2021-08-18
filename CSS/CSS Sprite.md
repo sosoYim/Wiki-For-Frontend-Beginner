@@ -13,11 +13,11 @@
 ## 2. CSS Sprites Generator를 통한 이미지 스프라이트 구현
   - [CSS Sprites Generator](https://www.toptal.com/developers/css/sprite-generator/)
   1. CSS Sprites Generator
-  ![홈페이지 개요](./images/01.png)
-  ![이미지 포지션](./images/02.png)
+  ![홈페이지 개요](./css_sprite_img/01.png)
+  ![이미지 포지션](./css_sprite_img/02.png)
   - 이미지를 끌어다 놓으면 CSS에 적용하여야 할 좌표(position)값을 자동으로 생성해줌
   2. 생성된 SPRITE 이미지
-  <img src="./images/css_sprites_td.png" width="30%" alt="Sprite Images" style="display:block;">
+  <img src="./css_sprite_img/css_sprites_td.png" width="30%" alt="Sprite Images" style="display:block;">
   <div>아이콘 제작자(출처) <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/kr/"
       title="Flaticon">www.flaticon.com</a></div>
 
@@ -62,4 +62,4 @@
 - CSS Sprites Generator가 생성하는 좌표값 그대로 투입하면 됨
 
 ## 4. 출력화면
-  ![출력화면](./images/03.png)
+  ![출력화면](./css_sprite_img/03.png)
