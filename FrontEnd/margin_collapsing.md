@@ -12,6 +12,7 @@
 
   <figure style = "display: block; text-align: center;">
     <img src = "https://media.vlpt.us/post-images/raram2/97e16a40-121f-11ea-aaba-65695302c179/01-margin-collapsing-sibling-case.png" alt="인접요소 상하 마진 상쇄">
+
     <figcaption style = "text-align: center; font-size: 12px; color: #808080">
 
     <출처 : [raram2님 blog](https://velog.io/@raram2/CSS-%EB%A7%88%EC%A7%84-%EC%83%81%EC%87%84Margin-collapsing-%EC%9B%90%EB%A6%AC-%EC%99%84%EB%B2%BD-%EC%9D%B4%ED%95%B4)>
@@ -24,6 +25,7 @@
 
   <figure style = "display: block; text-align: center;">
     <img src = "https://raw.githubusercontent.com/freshhoe/freshhoe.github.io/develop/contents/HTML_CSS/0817/images/margin_3.PNG" alt="마진 상쇄가 발생하지 않는 경우">
+
     <figcaption style = "text-align: center; font-size: 12px; color: #808080">
 
     <출처 : [joshwcomeau blog](https://www.joshwcomeau.com/css/rules-of-margin-collapse/)>
@@ -34,6 +36,7 @@
 
   <figure style = "display: block; text-align: center;">
     <img src = "https://raw.githubusercontent.com/freshhoe/freshhoe.github.io/develop/contents/HTML_CSS/0817/images/margin_4.PNG" alt="부모에게 감싸진 요소와의 마진 상쇄">
+    
     <figcaption style = "text-align: center; font-size: 12px; color: #808080">
 
     <출처 : [joshwcomeau blog](https://www.joshwcomeau.com/css/rules-of-margin-collapse/)>
