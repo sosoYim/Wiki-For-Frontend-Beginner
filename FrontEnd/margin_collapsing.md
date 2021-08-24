@@ -92,7 +92,7 @@
 - 두 인접 요소 상단과 하단에 각각 negative margin이 존재한다면 더 작은 값으로 상쇄되어 적용됩니다. 따라서 더 작은 margin을 가진 요소의 margin 크기만큼 겹치게 됩니다.
 
   <figure style = "display: block; text-align: center;">
-    <img src = "./images/margin_7.PNG" alt="음수 마진의 상쇄">
+    <img src = "https://raw.githubusercontent.com/freshhoe/freshhoe.github.io/develop/contents/HTML_CSS/0817/images/margin_7.PNG" alt="음수 마진의 상쇄">
 
     <figcaption style = "text-align: center; font-size: 12px; color: #808080">
 
