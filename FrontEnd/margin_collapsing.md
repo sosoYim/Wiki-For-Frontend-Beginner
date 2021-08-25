@@ -137,7 +137,7 @@
 
 
 ### 정리
-- margin collapsing은 블록 요소가 쌓이는 방향의 상단 또는 하단에서만 발생한다.
+- margin collapsing은 블록 요소가 쌓이는 방향에서만 발생한다.
 - 다시 말해, 아래와 같이 `writing-mode: vertical-lr`로 요소가 쌓이는 흐름이 바뀔 경우에도 margin collapse가 가능합니다. 이 때, 요소는 쌓이는 방향이 수평이므로 수평 margin collapse가 발생하고, 수직 margin collapse는 발생하지 않습니다.
 - **참고** : `writing-mode` 를 활용해 block 요소를 수직(vertically)이 아닌 수평(horizontally)으로 쌓을 수 있습니다.
 
