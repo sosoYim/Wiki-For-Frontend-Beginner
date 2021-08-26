@@ -174,7 +174,9 @@
   display: inline-block;
   width: 100px;
   height: 100px;
-  background-color: blue;
+  /* 식별을 위한 styling */
+  background-color: rgba(0, 0, 255, 0.8);     /* alpha값 추가 */
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.9);    /* shadow 추가 */
 }
 ```
 
@@ -207,7 +209,9 @@
 .box2 {
   width: 100px;
   height: 100px;
-  background-color: blue;
+  /* 식별을 위한 styling */
+  background-color: rgba(0, 0, 255, 0.8);     /* alpha값 추가 */
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.9);    /* shadow 추가 */
 }
 ```
 
@@ -231,8 +235,10 @@
   float: left; /* float 처리 */
   width: 100px;
   height: 100px;
-  background-color: red;
   margin-bottom: -40px; /* 음수 마진 */
+  /* 식별을 위한 styling */
+  background-color: rgba(255, 0, 0, 0.8);     /* alpha값 추가 */
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.9);    /* shadow 추가 */
 }
 .box2 {
   clear: both; /* float 클리어 처리 */
@@ -246,7 +252,10 @@
 
     <img src="nm-img/margin-bottom2.png" width="300">
 
-  > 마진을 준 요소의 내부를 침범하지 않고, 그 아래로 숨는 것을 확인할 수 있다.
+  > 마진을 준 요소의 내부를 침범하지 않고, 그 아래로 숨는 것을 확인할 수 있다.<br>
+  > float의 원리상 box1은 3차원 공간에서 상단에 부유하게 되기 때문<br>
+  > [더 알아보기 : CSS Float 및 Clear 설명-CSS float 및 clear는 어떻게 작동합니까? - YouTube](https://www.youtube.com/watch?v=xara4Z1b18I)
+  > <img src="nm-img/float.png" width="300">
 
 ## 3. 정리
 
