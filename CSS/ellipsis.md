@@ -62,7 +62,7 @@ overflow: hidden;
 웹킷을 이용하기 때문에 크롬과 사파리에서만 사용 가능하다. 핵심 기능이 특정 엔진만으로 사용할 수 있어 심각한 크로스 브라우징 이슈가있다.
 W3C 표준화 제정 단계도 아직 working draft 초안 단계이기 때문에 아직까진 권장할 수 없는 속성이다.
 
-이에 대한 대안으로 플러그인을 많이 쓰는 듯 하다.
+이에 대한 대안으로 플러그인을 많이 추천한다.
 
 > [multi-clamp](https://github.com/jackyr/multi-clamp#readme)
 > MIT 라이센스
@@ -81,5 +81,3 @@ W3C 표준화 제정 단계도 아직 working draft 초안 단계이기 때문�
 [MDN white-space](https://developer.mozilla.org/ko/docs/Web/CSS/white-space)
 
 [MDN text-overflow](https://developer.mozilla.org/en-US/docs/Web/CSS/text-overflow)
-
-[MDN -webkit-line-clamp]()

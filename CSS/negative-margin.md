@@ -48,7 +48,7 @@
 
 - 빨간색 박스의 margin-left에 음수 값을 주었을 경우 아래와 같이 동작한다.
 
-    <img src="nm-img/margin-left.png" width="300">
+    <img src="./images/nm-img/margin-left.png" width="300">
 
   > 빨간색 박스가 왼쪽으로 요소가 이동하게 된다!
 
@@ -81,7 +81,7 @@
 
 - 빨간색 박스의 margin-top에 음수 값을 주었을 경우 아래와 같이 동작한다.
 
-    <img src="nm-img/margin-top.png" width="300">
+    <img src="./images/nm-img/margin-top.png" width="300">
 
   > 빨간색 박스가 위쪽으로 이동한다! 마진을 주지 않은 파란색 박스의 변화는 없다.
 
@@ -112,7 +112,7 @@
 
 - 그 결과... 빨간색 박스가 위로 안움직이네?
 
-    <img src="nm-img/margin-top2.png" width="300">
+    <img src="./images/nm-img/margin-top2.png" width="300">
 
   > " 요소가 떠 있는 방향(inline-block의 경우엔 좌우로) "와 " margin의 방향 "이 일치하지 않으면, negative margin이 먹히질 않는다!
 
@@ -145,7 +145,7 @@
 
 - 그 결과?
 
-    <img src="nm-img/margin-top.png" width="300">
+    <img src="./images/nm-img/margin-top.png" width="300">
 
   > 동작에 있어서 차이가 없다!
 
@@ -182,7 +182,7 @@
 
 - 빨간색 박스에 margin-right을 음수로 적용한 결과...
 
-    <img src="nm-img/margin-right.png" width="300">
+    <img src="./images/nm-img/margin-right.png" width="300">
 
   > 빨간색 요소의 위치는 이동하지 않고, 마진 값을 주지 않은 파란색 요소를 자신의 오른쪽 영역으로 끌어당겼다!
 
@@ -217,7 +217,7 @@
 
 - margin-bottom에 음수값을 준 결과...
 
-    <img src="nm-img/margin-bottom.png" width="300">
+    <img src="./images/nm-img/margin-bottom.png" width="300">
 
   > right에 음수를 준 것과 동일하게, 마진을 주지 않은 요소가 마진을 준 요소의 자리를 침범하게 된다.
 
@@ -250,12 +250,12 @@
 
 - 빨간색 요소의 내부를 파란색 요소가 침범하지 않았다!
 
-    <img src="nm-img/margin-bottom2.png" width="300">
+    <img src="./images/nm-img/margin-bottom2.png" width="300">
 
   > 마진을 준 요소의 내부를 침범하지 않고, 그 아래로 숨는 것을 확인할 수 있다.<br>
   > float의 원리상 box1은 3차원 공간에서 상단에 부유하게 되기 때문<br>
   > [더 알아보기 : CSS Float 및 Clear 설명-CSS float 및 clear는 어떻게 작동합니까? - YouTube](https://www.youtube.com/watch?v=xara4Z1b18I)
-  > <img src="nm-img/float.png" width="300">
+  > <img src="./images/nm-img/float.png" width="300">
 
 ## 3. 정리
 
